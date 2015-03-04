@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Profile</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script src="jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="jquery-ui.css">
+<script src="jquery-ui.js"></script>
+
+<script>
+$(function() {
+$( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+});
+</script>
+<style>
+.ui-tabs-vertical { width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+</style>
+
+ <script>
+$(document).ready(function(){
+  $("#logo").mouseenter(function()
+  {
+    $(this).animate({
+            marginLeft : "-180px"
+        },7000);
+  });
+  
+  
+});
+</script>
+
+
+</head>
+<body>
+
+<div id="header">
+
+
+   <div id="container">
+
+	
+	<div class="header-main">
+	 <div class="logo" id = "logo">
+		 <a href="http://www.nanjinglove.com/differentgifts/index.php" name="top"><img src="http://www.nanjinglove.com/differentgifts/logo.png" width="211" height="91" /></a>
+     </div>
+	 
+	 <div class="login-block">
+		<span class="account"><a href="http://www.nanjinglove.com/differentgifts/register.php" class="account">Sign In</a></span> 
+	<span class="cart"><a href="http://www.nanjinglove.com/differentgifts/basket.php" class="basket">Shopping Cart</a></span> 
+	<div class="fb-like" data-href="http://www.nanjinglove.com/differentgifts" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+	
+
+
+	
+  </div>
+  </div>
+		
+	
+		
+		<div class="search-container">
+
+		</div>
+		
+	</div>	
+		
+		<div class="navigation-inner">
+		
+		
+		<ul class="menu">
+		  <li class="nav-item"><a href="http://www.nanjinglove.com/differentgifts/index.php">Home</a></li>
+				<li class="nav-item"><a href="http://www.nanjinglove.com/differentgifts/categories.php">Categories</a>
+					
+				</li>
+                    <li class="nav-item"><a href="http://www.nanjinglove.com/wordpress">Comments</a></li>
+				<li class="nav-item"><a href="http://www.nanjinglove.com/differentgifts/specialCode.php">OnSpecials</a></li>
+				<li class="nav-item"><a href="http://www.nanjinglove.com/differentgifts/manage.php" onClick="_gaq.push(['_trackEvent', 'managePage'])">ManageWebsite</a></li>
+				<li class="nav-item"><a href="#">MorePages</a>
+					<ul>
+					
+						<li class="navgiation-item">
+							<a href="http://www.nanjinglove.com/differentgifts/etched.php">EtchedGoods</a>
+						</li>
+												<li class="navgiation-item">
+							<a href="http://www.nanjinglove.com/differentgifts/ci/index.php/download/downloadPage">Download</a>
+						</li>
+					</ul>	
+				</li>
+
+				
+				  <li class="nav-item"><a href="index.html">Games</a></li>
+			</ul>
+		
+		</div>
+		
+	
+</div>
+
+
+
+  
+  
+<div id="tabs">
+<ul>
+<li><a href="#tabs-1">Nunc tincidunt</a></li>
+<li><a href="#tabs-2">Proin dolor</a></li>
+<li><a href="#tabs-3">Aenean lacinia</a></li>
+</ul>
+<div id="tabs-1">
+<h2>Content heading 1</h2>
+<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+</div>
+<div id="tabs-2">
+<h2>Content heading 2</h2>
+<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+</div>
+<div id="tabs-3">
+<h2>Content heading 3</h2>
+<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+</div>
+</div>
+
+
+
+<div id="footer" style="width:1100px; height:80px; left:120px;">
+
+<div class="footer-main">
+			
+			<div class="back-to-top"><a href="#top"><img src="http://www.nanjinglove.com/differentgifts/top.png" alt="Back to top" border="0"/></a></div>
+			
+			<!-- Footer Column 1 Begin -->
+			<div class="left-column float-left">
+
+			</div>
+			<!-- Footer Column 1 End -->
+			
+			<!-- Footer Column 2 Begin -->
+			<div class="middle-column float-left">
+
+			</div>
+			<!-- Footer Column 2 End -->
+			
+			<!-- Footer Column 3 Begin -->
+			<div class="left-column float-right">
+				<h1>Contact</h1>
+			
+			
+					<h2>Yang: 0425306362</h2>
+					<h3>Email: <a href="mailto:ly_musictt@hotmail.com" class="footerlink">ly_musictt@hotmail.com</a></h3>
+		
+				<p>
+							
+					<span class="wordpress"><a href="http://www.nanjinglove.com/wordpress" class=""><img src="http://www.nanjinglove.com/differentgifts/wp.png" alt="wordpress" border="0" height="22" width="25"></a></span>
+					
+			
+			
+
+				</p>
+				<div id="googleMap" style="width:300px;height:180px;color:blue;"></div>
+			</div>
+			<!-- Footer Column 3 End -->
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
